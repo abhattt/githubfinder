@@ -31,16 +31,16 @@ import axios from 'axios';
   return (
         <Router>
             <Navbar/>
-           
+            
             <div className='container'>
             <Search searchName={<searchName/>} showClear={showClear} clearUsers={clearUsers} />
             < Users users={users}/>
        
             <Routes>
            <Route exact path="/about" element={<About/>}/>
-              {/* <Route exact path="/user/:anything" element={<UserDetail/>}/> */}
+          
               </Routes>
-              {/* </switch> */}
+            
               </div> 
         </Router>
 

@@ -17,7 +17,7 @@ const Search =(props)=>{
             <input type="submit" value="Search" className="btn btn-dark btn-block" /> 
         </form>
         {props.showClear &&
-        <button type="submit" className="btn btn-light btn-block" onClick={props.clearUsers} >Clear</button>}
+        <button type="submit" className="btn btn-light btn-block" >Clear</button>}
         </>
     )
 }
